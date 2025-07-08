@@ -9,8 +9,8 @@ We introduce Ming-Reasoning-7B, a model designed to excel in both general and sp
 
 ## 📌 Updates
 
-- [2025.07.08] 🔥 Our Technical Report is in public on arxiv.
-- [2025.07.07] 🔥 We release Ming-Reasoning on Hugging Face and ModelScope.
+<!-- - [2025.07.08] 🔥 Our Technical Report is in public on arxiv. -->
+- [2025.07.07] 🔥 We release Ming-Reasoning 🤗 [Hugging Face](https://huggingface.co/inclusionAI/Ming-Reasoning) and 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/Ming-Reasoning).
 
 ## Key Features
 
@@ -28,19 +28,19 @@ capability they measure:
 
 |Models| MathVista| MathVision| MathVerse| DynaMath| WeMath| LogicVista| Avg. (Δ)|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**Base-Scale General Models**|
+|***Base-Scale General Models***|
 |InternVL3-8B | 70.5| 30.0| 38.5| 25.7 |39.5 |44.5 |41.4|
 |InternVL3-9B | 69.0 | 29.3| 37.9 |25.1 |34.8| 49.0 |40.8|
 |Qwen2.5-VL-7B |68.1 |25.4 |41.1 |21.8 |36.2| 47.9| 40.1|
 |MUG-U-7B | 74.8 |26.1 |35.4 |17.2 |26.5 |39.8| 36.6|
 |SAIL-VL-1.6-8B | 74.2 |23.2| 33.4 |14.0 |29.6 |41.4| 36.0|
-|**Base-Scale Reasoning Models**|
+|***Base-Scale Reasoning Models***|
 |WeThink-VL-7B| 71.6 |26.0| 44.2 |24.8 |**48.0** |**51.2**| 44.3 (+4.2)|
 |Taichu-VLR-7B | 72.3| 27.1 |46.7 |23.0 |44.0 |48.3 |43.6|
 |VLAA-Thinker-7B | 68.0 |26.4| **48.2** |22.4 |41.5 |48.5 |42.5 (+2.4)|
 |URSA-8B-PS-GRPO | 67.8 |**31.8** |41.5 |22.4| 38.3 |44.7 |41.1 (+8.2)|
 |Ovis2-8B |71.8 |25.9| 42.3 |20.4 |27.2 |39.4| 37.8|
-|**Our Models**|
+|***Our Models***|
 |Base Model |70.2| 25.9| 30.5| 20.2| 27.2| 37.8| 35.5|
 |Ming-Reasoning-CI-7B|  71.7| 29.2| 42.1| 25.0 |42.8| 46.8 |42.9 (+7.4)|
 |Ming-Reasoning-7B | **75.0** |31.5| 44.7 |**26.8** |41.8 |50.0 |**45.0 (+9.5)**|
@@ -51,12 +51,12 @@ capability they measure:
     | Models | Count | Relation | Depth | Distance | Avg. |
     | :--- | :---: | :---: | :---: | :---: | :---: |
     | ***Large-Scale Models*** | | | | | |
-    | GPT-4O  [Achiam et al., 2023] | 65.9 | 85.7 | 87.8 | 78.2 | 78.9 |
-    | Gemini-1.5-pro  [Team et al., 2023] | 70.4 | 85.2 | 82.4 | 72.8 | 77.4 |
+    | GPT-4O | 65.9 | 85.7 | 87.8 | 78.2 | 78.9 |
+    | Gemini-1.5-pro | 70.4 | 85.2 | 82.4 | 72.8 | 77.4 |
     | ***Base-Scale Models*** | | | | | |
-    | InternVL3-8B [Zhu et al., 2025] | **74.0** |  90.6  |  84.3  |  81.0  |  82.0  |
-    | Qwen2.5-VL-7B-Instruct [Bai et al., 2025] | 65.2 |  86.6  | 70.6 | 79.8 | 75.0 |
-    | LLava-NEXT-Video-7B  [Zhang et al., 2024b] | 59.3 | 77.0 | 71.3 | 54.7 | 65.2 |
+    | InternVL3-8B| **74.0** |  90.6  |  84.3  |  81.0  |  82.0  |
+    | Qwen2.5-VL-7B-Instruct | 65.2 |  86.6  | 70.6 | 79.8 | 75.0 |
+    | LLava-NEXT-Video-7B  | 59.3 | 77.0 | 71.3 | 54.7 | 65.2 |
     | ***Our Models*** | | | | | |
     | Ming-Reasoning-7B |  66.6  | **92.8** | **89.3** | **84.3** | **82.3** |
 
