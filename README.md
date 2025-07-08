@@ -14,9 +14,9 @@ We introduce Ming-Reasoning-7B, a model designed to excel in both general and sp
 
 ## Key Features
 
-- Unified Omni-Modality Perception: Ming-lite-omni, built on Ling, an MoE architecture LLM, resolves task conflicts and ensures coherent integration of tokens from different modalities through modality-specific routers.
-- Unified Perception and Generation: Ming-lite-omni achieves unified understanding and generation, enabling the model to interpret multimodal instructions and user intent during generation, which helps enhance generation quality and improves usability across multiple tasks.
-- Innovative Generation Capabilities: Ming-lite-omni can perceive all modalities and generate high-quality text, real-time speech, and vivid images simultaneously, delivering exceptional cross-modal performance across diverse tasks including image perception, audio-visual interaction, and image generation.
+- A High-quality Data Construction Pipeline: We design and implement a multi-stage data synthesis and curation pipeline that generates vast amounts of reasoning data.
+- A Dynamic Multi-Task Training Strategy: We propose a sophisticated training strategy that effectively handles data heterogeneity. It features step-wise dynamic optimization to mitigate conflicts between different data sources and a task-specific reward formulation to provide tailored incentive signals.
+- Unified General and Spatial Reasoning Model: We propose Ming-Reasoning-7B, an MLLM uniquely engineered for both abstract and spatial reasoning. Extensive evaluations on 8 distinctbenchmarks demonstrate that, by leveraging our custom data and training pipelines, Ming-Reasoning establishes new state-of-the-art (SOTA) results across both general and spatial reasoning domains.
 
 ## Evaluation
 
