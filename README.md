@@ -1,22 +1,22 @@
-# Ming-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning
+# M2-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning
 
-📖 [Technical Report]() | 🤗 [Hugging Face](https://huggingface.co/inclusionAI/Ming-Reasoning)｜ 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/Ming-Reasoning)
+📖 [Technical Report]() | 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning)｜ 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning)
 
 ## Introduction
 
-We introduce Ming-Reasoning-7B, a model designed to excel in both general and spatial reasoning. Our approach integrates two key innovations: (1) a novel data pipeline that generates 294.2K high-quality data samples (168K for cold-start fine-tuning and 126.2K for RLVR), which feature logically coherent reasoning trajectories and have undergone comprehensive assessment; and (2) a dynamic multi-task training strategy with step-wise optimization to mitigate conflicts between data, and task-specific rewards for delivering tailored incentive signals. This combination of curated data and advanced training allows Ming-Reasoning-7B to set a new state-of-the-art (SOTA) across 8 benchmarks, showcasing superior performance in both general and spatial reasoning domains.
+We introduce M2-Reasoning-7B, a model designed to excel in both general and spatial reasoning. Our approach integrates two key innovations: (1) a novel data pipeline that generates 294.2K high-quality data samples (168K for cold-start fine-tuning and 126.2K for RLVR), which feature logically coherent reasoning trajectories and have undergone comprehensive assessment; and (2) a dynamic multi-task training strategy with step-wise optimization to mitigate conflicts between data, and task-specific rewards for delivering tailored incentive signals. This combination of curated data and advanced training allows M2-Reasoning-7B to set a new state-of-the-art (SOTA) across 8 benchmarks, showcasing superior performance in both general and spatial reasoning domains.
 ![](assets/teaser.png)
 
 ## 📌 Updates
 
 <!-- - [2025.07.08] 🔥 Our Technical Report is in public on arxiv. -->
-- [2025.07.07] 🔥 We release Ming-Reasoning 🤗 [Hugging Face](https://huggingface.co/inclusionAI/Ming-Reasoning) and 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/Ming-Reasoning).
+- [2025.07.07] 🔥 We release M2-Reasoning on 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning) and 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning).
 
 ## Key Features
 
 - A High-quality Data Construction Pipeline: We design and implement a multi-stage data synthesis and curation pipeline that generates vast amounts of reasoning data.
 - A Dynamic Multi-Task Training Strategy: We propose a sophisticated training strategy that effectively handles data heterogeneity. It features step-wise dynamic optimization to mitigate conflicts between different data sources and a task-specific reward formulation to provide tailored incentive signals.
-- Unified General and Spatial Reasoning Model: We propose Ming-Reasoning-7B, an MLLM uniquely engineered for both abstract and spatial reasoning. Extensive evaluations on 8 distinctbenchmarks demonstrate that, by leveraging our custom data and training pipelines, Ming-Reasoning establishes new state-of-the-art (SOTA) results across both general and spatial reasoning domains.
+- Unified General and Spatial Reasoning Model: We propose M2-Reasoning-7B, an MLLM uniquely engineered for both abstract and spatial reasoning. Extensive evaluations on 8 distinctbenchmarks demonstrate that, by leveraging our custom data and training pipelines, M2-Reasoning establishes new state-of-the-art (SOTA) results across both general and spatial reasoning domains.
 
 ## Evaluation
 
@@ -42,8 +42,8 @@ capability they measure:
 |Ovis2-8B |71.8 |25.9| 42.3 |20.4 |27.2 |39.4| 37.8|
 |***Our Models***|
 |Base Model |70.2| 25.9| 30.5| 20.2| 27.2| 37.8| 35.5|
-|Ming-Reasoning-CI-7B|  71.7| 29.2| 42.1| 25.0 |42.8| 46.8 |42.9 (+7.4)|
-|Ming-Reasoning-7B | **75.0** |31.5| 44.7 |**26.8** |41.8 |50.0 |**45.0 (+9.5)**|
+|M2-Reasoning-CI-7B|  71.7| 29.2| 42.1| 25.0 |42.8| 46.8 |42.9 (+7.4)|
+|M2-Reasoning-7B | **75.0** |31.5| 44.7 |**26.8** |41.8 |50.0 |**45.0 (+9.5)**|
 
 - Spatial Reasoning: We assess this skill using 2 benchmarks: CV-Bench and VSI-Bench
     - CV-Bench:
@@ -58,7 +58,7 @@ capability they measure:
     | Qwen2.5-VL-7B-Instruct | 65.2 |  86.6  | 70.6 | 79.8 | 75.0 |
     | LLava-NEXT-Video-7B  | 59.3 | 77.0 | 71.3 | 54.7 | 65.2 |
     | ***Our Models*** | | | | | |
-    | Ming-Reasoning-7B |  66.6  | **92.8** | **89.3** | **84.3** | **82.3** |
+    | M2-Reasoning-7B |  66.6  | **92.8** | **89.3** | **84.3** | **82.3** |
 
     - VSI-Bench:
 
@@ -73,11 +73,11 @@ capability they measure:
     | Qwen2.5-VL-7B-Instruct| 37.7 | 20.1 | 49.7  |  37.4  | 38.5 | 40.4 |  31.4  |  32.0  | 35.9 |
     | LLava-NeXT-Video-7B|  48.5  | 14.0 |  47.8  | 24.2 |  43.5  | 42.4 |  **34.0**  | 30.6 | 35.6 |
     | ***Our Models*** | | | | | | | | | |
-    | Ming-Reasoning-7B | 41.0 |  34.0  | **60.9** | **55.4** | 40.7 | **47.3** | 29.9 | 28.8 | **42.3** |
+    | M2-Reasoning-7B | 41.0 |  34.0  | **60.9** | **55.4** | 40.7 | **47.3** | 29.9 | 28.8 | **42.3** |
 
 ## Installation
 
-Please download our model following Model Downloads, then you can refer to the following codes to run Ming-Reasoning model.
+Please download our model following Model Downloads, then you can refer to the following codes to run M2-Reasoning model.
 The basic environment is `python=3.10`, `torch=2.6.0+cu124`, `transformers=4.49.0`
 ## Example Usage
 
@@ -191,7 +191,7 @@ class BailingMMInfer:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_name_or_path', type=str, default="inclusionAI/Ming-Reasoning")
+    parser.add_argument('--model_name_or_path', type=str, default="inclusionAI/M2-Reasoning")
     parser.add_argument('--max_pixels', type=int, default=401408)
     parser.add_argument('--min_pixels', type=int, default=401408)
     parser.add_argument('--max_new_tokens', type=int, default=4096)
@@ -294,8 +294,8 @@ This code repository is licensed under the MIT License, and the Legal Disclaimer
 If you find our work helpful, feel free to give us a cite.
 
 ```
-@misc{Mingreasoning2025,
-      title  = {Ming-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning}, 
+@misc{M2reasoning2025,
+      title  = {M2-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning}, 
       author = {Inclusion AI},
       year = {2025},
       archivePrefix = {arXiv},
