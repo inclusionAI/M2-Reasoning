@@ -1,6 +1,6 @@
 # M2-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning
 
-📖 [Technical Report](./assets/M2-Reasoning.pdf) | 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning)｜ 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning)
+📖 [Technical Report](./assets/M2-Reasoning.pdf) | 📄 [arXiv](https://arxiv.org/abs/2507.08306) | 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning)｜ 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning)
 
 ## Introduction
 
@@ -9,7 +9,7 @@ We introduce M2-Reasoning-7B, a model designed to excel in both general and spat
 
 ## 📌 Updates
 
-<!-- - [2025.07.08] 🔥 Our Technical Report is in public on arxiv. -->
+- [2025.07.14] 🔥 Our Technical Report is in available on 📄 [arXiv](https://arxiv.org/abs/2507.08306).
 - [2025.07.11] 🔥 We release M2-Reasoning on 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning) and 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning).
 
 ## Key Features
