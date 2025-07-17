@@ -9,7 +9,7 @@ We introduce M2-Reasoning-7B, a model designed to excel in both general and spat
 
 ## 📌 Updates
 
-- [2025.07.14] 🔥 Our Technical Report is in available on 📄 [arXiv](https://arxiv.org/abs/2507.08306).
+- [2025.07.14] 🔥 Our Technical Report is available on 📄 [arXiv](https://arxiv.org/abs/2507.08306).
 - [2025.07.11] 🔥 We release M2-Reasoning on 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning) and 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning).
 
 ## Key Features
@@ -44,6 +44,9 @@ capability they measure:
 |Base Model |70.2| 25.9| 30.5| 20.2| 27.2| 37.8| 35.5|
 |M2-Reasoning-CI-7B|  71.7| 29.2| 42.1| 25.0 |42.8| 46.8 |42.9 (+7.4)|
 |M2-Reasoning-7B | **75.0** |31.5| 44.7 |**26.8** |41.8 |50.0 |**45.0 (+9.5)**|
+|M2-Reasoning-7B-HF* | 74.7 |30.5| 46.1 |26.8 |42.7 |49.2 |45.0 (+9.5)|
+
+\* After converting the checkpoints to huggingface, the accuracies are slightly different.
 
 - Spatial Reasoning: We assess this skill using 2 benchmarks: CV-Bench and VSI-Bench
     - CV-Bench:
@@ -74,6 +77,9 @@ capability they measure:
     | LLava-NeXT-Video-7B|  48.5  | 14.0 |  47.8  | 24.2 |  43.5  | 42.4 |  **34.0**  | 30.6 | 35.6 |
     | ***Our Models*** | | | | | | | | | |
     | M2-Reasoning-7B | 41.0 |  34.0  | **60.9** | **55.4** | 40.7 | **47.3** | 29.9 | 28.8 | **42.3** |
+
+## Model Downloads
+You can download the model from both 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning) and 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning).
 
 ## Installation
 
